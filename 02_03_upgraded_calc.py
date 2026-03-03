@@ -28,7 +28,7 @@ while agree_to_continue:
         if result != 'Error':
             print('The result of the operation is:', result)
 
-        agree_to_continue = input('Do you want to perform another calculation? (y/n): ')
+        agree_to_continue = input('Do you want to perform another calculation? (y/n): ').lower()
         if agree_to_continue == 'n':
             agree_to_continue = False
         elif agree_to_continue != 'y' and agree_to_continue != 'n':
