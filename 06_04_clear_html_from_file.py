@@ -15,4 +15,4 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
                      if cleaned_line.strip():
                           file_out.write(cleaned_line)
 
-delete_html_tags('draft.html', 'cleaned.txt')
+delete_html_tags('draft.html', 'cleaned_local.txt')
