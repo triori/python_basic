@@ -1,0 +1,2 @@
+class GroupOverflowError(Exception):
+    pass
